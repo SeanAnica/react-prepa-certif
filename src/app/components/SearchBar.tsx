@@ -28,10 +28,13 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
       <input
         type="text"
         placeholder="Rechercher un film..."
-        {...register('query', { required: true })}
+        {...register('query')}
         className="border p-2 rounded"
       />
-      <button type="submit" className="ml-2 bg-blue-500 text-white p-2 rounded">
+      <button
+        type="submit"
+        className="ml-2 bg-blue-500 text-white p-2 rounded cursor-pointer"
+      >
         Rechercher
       </button>
     </form>

@@ -16,5 +16,9 @@ export default function MovieList({ movies }: MovieListProps) {
     <MovieCard key={movie.id} movie={movie} />
   ));
 
-  return <div>{movieListItems}</div>;
+  return (
+    <div className="flex flex-col gap-2 p-2 md:flex-row md:gap-5 md:p-5">
+      {movieListItems}
+    </div>
+  );
 }

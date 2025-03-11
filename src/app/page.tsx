@@ -24,9 +24,10 @@ export default function Home() {
   }, []);
 
   const handleSearch = (query: string) => {
-    const filtered = movies.filter((movie) =>
+    let filtered = movies.filter((movie) =>
       movie.title.toLocaleLowerCase().includes(query.toLowerCase())
     );
+    if (query === '') filtered = movies; // Pas de query => tous les films.
     setFilteredMovies(filtered);
   };
 
