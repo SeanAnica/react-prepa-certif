@@ -1,10 +1,5 @@
+import { Movie } from '@/app/interfaces/movie.interface';
 import { NextResponse } from 'next/server';
-
-export type Movie = {
-  id: string;
-  title: string;
-  description: string;
-};
 
 const movies: Movie[] = [
   {
