@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "React préparation certification niveau 2",
+  title: "React préparation certification niveau 2: Movie App",
   description: "Projet de préparation de certification React niveau 2 généré par create next app",
 };
 

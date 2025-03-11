@@ -1,3 +1,9 @@
+## Sujet d'entraînement REACT : My Movie App
+
+Contexte du projet : Tu dois créer une petite application de gestion et d'affichage de films (type Netflix simplifié) qui permet aux utilisateurs d'afficher une liste de films, de voir les détails d'un film précis, de gérer des favoris, de rechercher des films, et de soumettre un formulaire de contact.
+
+## Informations du repo de base du projet next js (en anglais) :
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
