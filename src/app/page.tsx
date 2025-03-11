@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import SearchBar from './components/SearchBar';
 import { Movie } from './interfaces/movie.interface';
+import MovieList from './components/MovieList';
 
 /**
  * @returns Accueil avec la liste des films et barre de recherche.
@@ -33,6 +34,7 @@ export default function Home() {
     <>
       <h1>My Movie App</h1>
       <SearchBar onSearch={handleSearch} />
+      <MovieList movies={filteredMovies} />
     </>
   );
 }
